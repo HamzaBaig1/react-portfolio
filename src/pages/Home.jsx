@@ -5,6 +5,7 @@ import {
   FaReact,
   FaSquareJs,
 } from "react-icons/fa6";
+import resume from "../assets/HAMZA SULEMAN.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
@@ -111,7 +112,7 @@ function Home() {
 
       {/* Personal info */}
       <div className="md:my-20">
-        <h1 className=" text-4xl text-center font-bold text-gray-500">
+        <h1 className=" text-4xl md:text-3xl text-center font-bold text-gray-500">
           Who is Hamza?
         </h1>
         <div className="  h-screen md:h-3/4 relative text-gray-800">
@@ -141,8 +142,10 @@ function Home() {
                 )}
               </pre>
               <div className="w-full flex justify-center items-center">
-                <button className="text-white bg-red-500 rounded-lg px-4 py-1 hover:text-yellow-500 font-semibold">
-                  <a>Resume</a>
+                <button className="text-white bg-red-500 rounded-lg px-4 py-1 md:text-sm hover:text-yellow-500 font-semibold">
+                  <a href={resume} target="_blank" rel="noreferrer noopener">
+                    Resume
+                  </a>
                 </button>
               </div>
             </h1>
