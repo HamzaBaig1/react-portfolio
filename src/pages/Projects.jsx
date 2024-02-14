@@ -32,7 +32,7 @@ function Projects() {
             THE GAME IS...
           </h1>
           <h1 className=" text-8xl md:text-xl" data-aos="fade-up">
-            CONSISTANCY
+            CONSISTENCY
           </h1>
         </div>
 

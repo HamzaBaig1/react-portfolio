@@ -33,10 +33,10 @@ function Home() {
           </div>
           <div className="font-bold text-white md:px-5 md:text-center  md:h-full">
             <h1 className=" text-7xl md:text-3xl" data-aos="fade-left">
-              Hi,I am <b className=" text-yellow-500">Hamza</b>
+              Hi, I am <b className=" text-yellow-500">Hamza</b>
             </h1>
             <h1 className=" text-4xl md:text-2xl" data-aos="fade-right">
-              Frontend Web <b className=" text-red-500"> Developer</b>
+              Front-end Web <b className=" text-red-500"> Developer</b>
             </h1>
           </div>
         </div>

@@ -23,7 +23,7 @@ function Header() {
       key: "/projects",
     },
     {
-      title: "Contact",
+      title: "Get In Touch",
       key: "/contact",
     },
   ];
@@ -57,7 +57,7 @@ function Header() {
           {menuItem.map((item) => {
             return (
               <li
-                className={`list-none mx-5 px-5 hover:text-yellow-500 ${
+                className={`list-none mx-5 px-5 whitespace-nowrap hover:text-yellow-500 ${
                   pathname === item.key && "bg-white rounded-md text-black"
                 }`}
               >

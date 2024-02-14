@@ -18,10 +18,38 @@ function Footer() {
             <p className="text-white mb-3">Designed and Developed By</p>
             <div className="h-1 border-2 border-gray-50  border-dotted"></div>
             <div className="flex text-white w-full justify-between py-3">
-              <FaFacebook />
-              <FaInstagram />
-              <FaLinkedin />
-              <FaGithub />
+              <a
+                href="https://www.facebook.com/hamza.suleman.14/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className=" cursor-pointer hover:scale-125"
+              >
+                <FaFacebook />
+              </a>
+              <a
+                href="https://www.instagram.com/hamzaa._.baig/"
+                className=" cursor-pointer hover:scale-125"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/hamza-suleman-3b7766249/"
+                className=" cursor-pointer hover:scale-125"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://github.com/HamzaBaig1"
+                className=" cursor-pointer hover:scale-125"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <FaGithub />
+              </a>
             </div>
             <div className="h-1 border-2 border-gray-50  border-dotted"></div>
             <p className="text-white mt-3">Hamza Suleman</p>
